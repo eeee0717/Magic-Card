@@ -11,6 +11,8 @@
 		965CF0D82B3ACD2600F4DD15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965CF0D72B3ACD2600F4DD15 /* ContentView.swift */; };
 		965CF0DA2B3ACD2700F4DD15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965CF0D92B3ACD2700F4DD15 /* Assets.xcassets */; };
 		965CF0DD2B3ACD2700F4DD15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965CF0DC2B3ACD2700F4DD15 /* Preview Assets.xcassets */; };
+		96FF5BAF2B3AF535009FE50A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FF5BAE2B3AF535009FE50A /* Home.swift */; };
+		96FF5BB42B3AFDA4009FE50A /* GithubLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FF5BB32B3AFDA4009FE50A /* GithubLoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		965CF0D92B3ACD2700F4DD15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		965CF0DC2B3ACD2700F4DD15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		965CF0DE2B3ACD2700F4DD15 /* Magic_Card.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Magic_Card.entitlements; sourceTree = "<group>"; };
+		96FF5BAE2B3AF535009FE50A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		96FF5BB32B3AFDA4009FE50A /* GithubLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubLoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,9 @@
 		965CF0D42B3ACD2600F4DD15 /* Magic-Card */ = {
 			isa = PBXGroup;
 			children = (
+				96FF5BB12B3AFD63009FE50A /* ViewModels */,
+				96FF5BB02B3AFD5C009FE50A /* Models */,
+				96FF5BAD2B3AF50F009FE50A /* Views */,
 				965CF0D52B3ACD2600F4DD15 /* Magic_CardApp.swift */,
 				965CF0D72B3ACD2600F4DD15 /* ContentView.swift */,
 				965CF0D92B3ACD2700F4DD15 /* Assets.xcassets */,
@@ -67,6 +74,29 @@
 				965CF0DC2B3ACD2700F4DD15 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		96FF5BAD2B3AF50F009FE50A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				96FF5BAE2B3AF535009FE50A /* Home.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		96FF5BB02B3AFD5C009FE50A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		96FF5BB12B3AFD63009FE50A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				96FF5BB32B3AFDA4009FE50A /* GithubLoginViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +170,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				965CF0D82B3ACD2600F4DD15 /* ContentView.swift in Sources */,
+				96FF5BB42B3AFDA4009FE50A /* GithubLoginViewModel.swift in Sources */,
+				96FF5BAF2B3AF535009FE50A /* Home.swift in Sources */,
 				965CF0D62B3ACD2600F4DD15 /* Magic_CardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
